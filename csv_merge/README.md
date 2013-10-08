@@ -1,12 +1,12 @@
 csv_merge.py
 ============
 
-This is a simple script to help me merge two sets of related flashcards--one
-contains JLPT vocabulary and English translations, the other contains JLPT
-vocabulary that contain kanji and its hiragana pronunciation.
+This is a simple script I wrote to merge two sets of flashcards for Anki--one
+that contains JLPT vocabulary words and their English meanings, and another
+which contains the JLPT words with Kanji and their readings.
 
-I want a single set of flashcards that shows the word on one side and its
-pronunciation and English meaning on the other by exporting them to CSV,
-merging them with this script, then importing the new CSV file into Anki.
+This script takes a base file (which contains all vocabulary) and a merge
+file (which contains a subset of the base) and puts them together.
 
-I'm also using this opportunity to try using Python and Git in Visual Studio.
+A practical excuse to play a bit with Python 3 and Visual Studio 2013's
+Python and Git integration.
