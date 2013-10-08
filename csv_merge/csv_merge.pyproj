@@ -24,8 +24,5 @@
   <ItemGroup>
     <Compile Include="csv_merge.py" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="README.md" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
